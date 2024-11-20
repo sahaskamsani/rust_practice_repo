@@ -1,0 +1,10 @@
+[package]
+name = "cpu_usage"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+polars = {version = "0.44.1" , features = ["csv","lazy"]}
+chrono = {version = "0.4.38"}
+csv = {version ="1"}
+perf_monitor = "0.2.1" 
